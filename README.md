@@ -11,16 +11,22 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - View each planet page and toggle between "Overview", "Internal Structure", and "Surface Geology"
 
-### Screenshot
+### Screenshot - desktop
 
 ![](./public/assets/screenshot.jpg)
 
+### Screenshot - tablet
 
+![](./public/assets/screenhottablet.jpg)
+
+### Screenshot - mobile
+
+![](./public/assets/screenshotmobile.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://github.com/DavidIrvine-TW/the-planets)
+- Live Site URL: [live site](davidirvine-tw.github.io/the-planets/)
 
 *
 
@@ -33,5 +39,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [DavidIrvine-TW](https://github.com/DavidIrvine-TW)
+- Frontend Mentor - [DavidIrvine](https://www.frontendmentor.io/profile/DavidIrvine-TW)
