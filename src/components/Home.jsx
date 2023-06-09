@@ -8,8 +8,8 @@ function Home({ planetsObj, currentId }) {
   const selectedPlanet = planetsObj.find((planet) => planet.id === currentId);
 
   return (
-    <article className="flex flex-col items-center justify-center px-[1.5em] tablet:px-[2em] desktop:px-[0px] desktop:flex-row desktop:gap-[120px] desktop:pt-[7.875em] desktop:mb-[5.4375em]">
-      <div className="h-[304px] w-[327px] tablet:h-[440px] tablet:w-[690px] desktop:w-[760px] mx-auto flex flex-col items-center justify-center">
+    <article className="flex flex-col items-center justify-center px-[1.5em] tablet:px-[2em] desktop:px-[0px] desktop:flex-row desktop:gap-[120px] desktop:pt-[7.875em] desktop:mb-[5.4375em] ">
+      <div className="h-[304px] w-[327px] tablet:h-[440px] tablet:w-[690px] desktop:w-[760px] mx-auto flex flex-col items-center justify-center ">
         <img
           key={selectedPlanet.id}
           className={`${selectedPlanet.imgstyle} fade-in`}
@@ -17,7 +17,7 @@ function Home({ planetsObj, currentId }) {
         />
       </div>
 
-      <div className="tablet:w-[689px] tablet:mx-auto tablet:flex tablet:gap-[69px] desktop:flex-col desktop:w-[350px]">
+      <div className="tablet:w-[689px] tablet:mx-auto tablet:flex tablet:gap-[69px] desktop:flex-col desktop:w-[350px] ">
         <div className="flex text-center tablet:text-left w-[327px] h-[235px] tablet:w-[339px] desktop:w-[350px] tablet:h-[250px] flex-col">
           <h1 className="text-[2.5rem] tablet:text-[3rem] desktop:text-[5em] desktop:leading-[103px] font-ant reg text-white tablet:leading-[64px] leading-[52px] uppercase">
             {selectedPlanet.name}
