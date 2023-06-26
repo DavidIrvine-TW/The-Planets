@@ -9,7 +9,7 @@ import HomeStructure from "./HomeStructure";
 
 function PlanetPage({ planetsObj, currentId, setCurrentId }) {
   return (
-    <article className="desktop:w-[1110px] desktop:h-auto mx-auto  pb-[2em]">
+    <article className="desktop:w-[1110px] mx-auto  pb-[2em]">
       <MobileButtonGroup
         planetsObj={planetsObj}
         currentId={currentId}

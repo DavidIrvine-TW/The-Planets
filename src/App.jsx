@@ -297,10 +297,10 @@ function App() {
   const [currentId, setCurrentId] = useState(1)
   const [menuIcon, setMenuIcon] = useState(false)
   const [menuMob, setMenuMob] = useState(false)
-  document.documentElement.className = menuMob ? 'overflow-toggle':'';
+  document.documentElement.className = menuMob ? 'overflow-toggle':'min-h-screen';
 
   return (
-    <div className={`wrapper bg-darkblue max-w-screen min-h-screen `} >
+    <div className={`wrapper bg-darkblue w-full min-h-screen `} >
      <Nav setMenuMob={setMenuMob} menuIcon={menuIcon} setMenuIcon={setMenuIcon} planetsObj={planetsObj} currentId={currentId} setCurrentId={setCurrentId}/>
      <NavMenuMobile planetsObj={planetsObj} menuMob={menuMob} setMenuMob={setMenuMob} setCurrentId={setCurrentId} setMenuIcon={setMenuIcon}/>
      <NavMenuTablet planetsObj={planetsObj} setCurrentId={setCurrentId} currentId={currentId}/>
