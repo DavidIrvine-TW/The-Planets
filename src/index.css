@@ -28,7 +28,7 @@ html {
   background-position: center;
   background-repeat: repeat;
   background-size: cover;
-  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 button {
